@@ -1,6 +1,6 @@
 {
-  "versionCode": 3,
-  "versionName": "0.1.2",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4fac-81f4-83ef-a25daa7be8b5/raw?se=2026-10-03T11%3A29%3A12Z&sp=r&sv=2026-02-06&sr=b&scid=ee8410dd-7eee-5823-85ce-9af7a3e41b7f&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T07%3A45%3A18Z&ske=2026-10-04T07%3A45%3A18Z&sks=b&skv=2026-02-06&sig=4mQLmKhddNBO679GNpPUA2Qm6VqoJXdNolVBDn92CnA%3D",
-  "releaseNotes": "Nowa fotorealistyczna Abigail z widokami przód, 3/4, bok i tył. Kamera, zoom i sterowanie pozostają bez zmian. Poprawiona miniatura postaci."
+  "versionCode": 4,
+  "versionName": "0.1.3",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7138-81f4-8390-46c99bc1e08c/raw?se=2026-10-03T19%3A24%3A27Z&sp=r&sv=2026-02-06&sr=b&scid=3c6ad00d-1d5e-531a-a441-28757f0c8f31&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T05%3A01%3A46Z&ske=2026-10-04T05%3A01%3A46Z&sks=b&skv=2026-02-06&sig=Otzi%2B0g0/9mSTgT376LywLInVP%2B5ONWdve8O3cBJFu0%3D",
+  "releaseNotes": "Naprawione ładowanie Abigail. Obraz postaci jest teraz dołączony bezpośrednio do aplikacji, poprawiona miniatura. Kamera, zoom i sterowanie bez zmian."
 }
