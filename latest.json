@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 4,
-  "versionName": "0.1.3",
+  "versionCode": 5,
+  "versionName": "0.1.4",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "de0100e4a603e6fd5d2ae97120443aa608e66c521ca549b5e59ce5f0159404ef",
+  "sha256": "7175e17292beeec481b58af59ddfc48c5b2e64d6082668c9db9080ecf786fbba",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Naprawione ładowanie Abigail. Obraz postaci jest teraz dołączony bezpośrednio do aplikacji, poprawiona miniatura. Kamera, zoom i sterowanie bez zmian."
+  "releaseNotes": "Natywny system aktualizacji DIRECT wzorowany na AB Mobile Studio: pobieranie w aplikacji, weryfikacja SHA-256, FileProvider i systemowy instalator Androida. Grafika postaci bez zmian."
 }
