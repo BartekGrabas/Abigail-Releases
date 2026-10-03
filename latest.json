@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 2,
-  "versionName": "0.1.1",
+  "versionCode": 3,
+  "versionName": "0.1.2",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "bcb1e63d93b6bb9070696dc387375880a2d07120a1b3591da51091d9fbef6935",
+  "sha256": "4d18fe90f0ab5fe7287f9a305043ef0c34854f8b961450202da3f28b509365e6",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Menu ustawień, przycisk Sprawdź aktualizację, wybrana Abigail jako referencja postaci i stały podpis APK."
+  "releaseNotes": "Nowa fotorealistyczna Abigail z widokami przód, 3/4, bok i tył. Kamera, zoom i sterowanie pozostają bez zmian. Poprawiona miniatura postaci."
 }
