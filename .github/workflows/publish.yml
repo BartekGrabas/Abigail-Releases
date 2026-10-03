@@ -1,0 +1,95 @@
+name: Publish Abigail APK
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "publish-request.json"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read publish request
+        id: req
+        shell: bash
+        run: |
+          echo "version=$(jq -r '.versionName' publish-request.json)" >> "$GITHUB_OUTPUT"
+          echo "version_code=$(jq -r '.versionCode' publish-request.json)" >> "$GITHUB_OUTPUT"
+          echo "artifact_url=$(jq -r '.artifactUrl' publish-request.json)" >> "$GITHUB_OUTPUT"
+          echo "notes=$(jq -r '.releaseNotes' publish-request.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Download signed build artifact
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 "${{ steps.req.outputs.artifact_url }}" -o artifact.zip
+          mkdir -p unpacked
+          unzip -o artifact.zip -d unpacked
+          APK="$(find unpacked -type f -name '*.apk' | head -1)"
+          if [ -z "$APK" ]; then
+            echo "APK not found in artifact"
+            exit 1
+          fi
+          cp "$APK" Abigail.apk
+
+      - name: Calculate checksum
+        id: checksum
+        shell: bash
+        run: |
+          echo "sha256=$(sha256sum Abigail.apk | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.req.outputs.version }}
+          NOTES: ${{ steps.req.outputs.notes }}
+        shell: bash
+        run: |
+          if gh release view "v${VERSION}" >/dev/null 2>&1; then
+            gh release delete "v${VERSION}" --yes --cleanup-tag
+          fi
+          gh release create "v${VERSION}" Abigail.apk \
+            --title "Abigail ${VERSION}" \
+            --notes "${NOTES}" \
+            --latest
+
+      - name: Update latest.json
+        env:
+          VERSION: ${{ steps.req.outputs.version }}
+          VERSION_CODE: ${{ steps.req.outputs.version_code }}
+          SHA256: ${{ steps.checksum.outputs.sha256 }}
+          NOTES: ${{ steps.req.outputs.notes }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          data = {
+              "channel": "preview",
+              "versionCode": int(os.environ["VERSION_CODE"]),
+              "versionName": os.environ["VERSION"],
+              "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
+              "sha256": os.environ["SHA256"],
+              "mandatory": False,
+              "minSdk": 26,
+              "releaseNotes": os.environ["NOTES"],
+          }
+          with open("latest.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+          PY
+
+          git config user.name "Abigail Release Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add latest.json
+          if git diff --cached --quiet; then
+            echo "latest.json unchanged"
+          else
+            git commit -m "Publish Abigail ${VERSION}"
+            git push origin main
+          fi
