@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "0.1.6",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-46dc-81f4-bde4-f1c6a41b0c2d/raw?se=2026-10-04T06%3A56%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=3e359eff-a128-58a2-a1da-d34ff37865a4&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T04%3A29%3A31Z&ske=2026-10-05T04%3A29%3A31Z&sks=b&skv=2026-02-06&sig=5EJ04JZfE7lFi3FFMas%2BY2Ith1rM27vmAMkcgK9cMMw%3D",
-  "releaseNotes": "Naprawiono wyświetlanie Abigail: osobne poprawnie przygotowane widoki przód, 3/4, bok i tył. Kamera i system aktualizacji bez zmian."
+  "versionCode": 8,
+  "versionName": "0.2.0",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-c7ec-81f4-8123-958ecfc7f033/raw?se=2026-10-04T07%3A14%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=40b78efe-4a5d-509d-8113-e0beaeba7743&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T05%3A44%3A54Z&ske=2026-10-05T05%3A44%3A54Z&sks=b&skv=2026-02-06&sig=sKB31RpbxPfkI0p1y2kddWxJ4jnCRSJClEzr2DLUyGo%3D",
+  "releaseNotes": "Pierwsza prawdziwa wersja 3D: model VRM ze szkieletem, pełny obrót 360°, poprawiony kierunek sterowania palcem. Zdjęcia Abigail pozostają referencją wyglądu."
 }
