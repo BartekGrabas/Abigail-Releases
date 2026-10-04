@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 5,
-  "versionName": "0.1.4",
+  "versionCode": 6,
+  "versionName": "0.1.5",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "7175e17292beeec481b58af59ddfc48c5b2e64d6082668c9db9080ecf786fbba",
+  "sha256": "8f9285aab9e868a846073e278d9cb6af059bfcdaef23d856c89f891a5c1785e3",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Natywny system aktualizacji DIRECT wzorowany na AB Mobile Studio: pobieranie w aplikacji, weryfikacja SHA-256, FileProvider i systemowy instalator Androida. Grafika postaci bez zmian."
+  "releaseNotes": "Test aktualizatora DIRECT: aktualizacja pobierana w aplikacji, weryfikowana SHA-256 i przekazywana do systemowego instalatora Androida."
 }
