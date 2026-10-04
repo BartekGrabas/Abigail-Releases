@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 7,
-  "versionName": "0.1.6",
+  "versionCode": 8,
+  "versionName": "0.2.0",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "5a3def6d138c5bf27fc577cd553cede859a77417040f660b29a92c7e01f4435d",
+  "sha256": "4f67cf1f4ce3a4b4c606afd5fbaa80c2a18699f1ae09492333ff4fc6d13c652f",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Naprawiono wyświetlanie Abigail: osobne poprawnie przygotowane widoki przód, 3/4, bok i tył. Kamera i system aktualizacji bez zmian."
+  "releaseNotes": "Pierwsza prawdziwa wersja 3D: model VRM ze szkieletem, pełny obrót 360°, poprawiony kierunek sterowania palcem. Zdjęcia Abigail pozostają referencją wyglądu."
 }
