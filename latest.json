@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 10,
-  "versionName": "0.2.2",
+  "versionCode": 11,
+  "versionName": "0.2.3",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "c29d90f1eb8eeb8df5630762bd8bfaf5b413569c87a3da6a4e75b1776324dfcc",
+  "sha256": "196d0d6d544364bbff10f9b71e37b1ada964e1fc93347f08353d5d4f7e096be3",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Nowa baza Abigail 3D: kobiecy model MakeHuman ze szkieletem i animacją idle. Usunięto techniczny robotyczny model VRM. Kolor włosów i ubioru jest zbliżany do referencji Abigail; zdjęcia pozostają wzorcem dalszego dopasowania twarzy i sylwetki."
+  "releaseNotes": "Dodano dwie postacie: Abigail Real (postać 01) i Maya (postać 02), przełączanie postaci z poziomu aplikacji oraz nową ikonę aplikacji z portretem referencyjnym. Abigail Real ma pierwsze dopasowanie proporcji, brązowe włosy i granatowy strój; Maya zachowuje poprzednią bazę 3D."
 }
