@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "0.2.2",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-c230-8210-83b7-d303145f35fd/raw?se=2026-10-04T08%3A19%3A32Z&sp=r&sv=2026-02-06&sr=b&scid=4445dbfd-504c-5b40-9e14-1929d1d1ed1c&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A58%3A49Z&ske=2026-10-05T07%3A58%3A49Z&sks=b&skv=2026-02-06&sig=GX5G1K0TmUs4NjjcdBzr%2BrKLpZJ5G6hpZjNQ2TKDzqI%3D",
-  "releaseNotes": "Nowa baza Abigail 3D: kobiecy model MakeHuman ze szkieletem i animacją idle. Usunięto techniczny robotyczny model VRM. Kolor włosów i ubioru jest zbliżany do referencji Abigail; zdjęcia pozostają wzorcem dalszego dopasowania twarzy i sylwetki."
+  "versionCode": 11,
+  "versionName": "0.2.3",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7e2c-81f4-8857-9526458f832f/raw?se=2026-10-04T09%3A03%3A51Z&sp=r&sv=2026-02-06&sr=b&scid=fa33cfd8-33cf-5b8c-a972-2be4d9051cc8&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A33%3A14Z&ske=2026-10-05T08%3A33%3A14Z&sks=b&skv=2026-02-06&sig=pgFdrJ53Tcr87f8ZXTgtiEnqzBKXJER7xG4xx6JTfOc%3D",
+  "releaseNotes": "Dodano dwie postacie: Abigail Real (postać 01) i Maya (postać 02), przełączanie postaci z poziomu aplikacji oraz nową ikonę aplikacji z portretem referencyjnym. Abigail Real ma pierwsze dopasowanie proporcji, brązowe włosy i granatowy strój; Maya zachowuje poprzednią bazę 3D."
 }
