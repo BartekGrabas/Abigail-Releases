@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 12,
-  "versionName": "0.2.4",
+  "versionCode": 13,
+  "versionName": "0.2.5",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "184b8f979b79fc49a4f7fd36850e40eb8787f00cb8e148499702074055916135",
+  "sha256": "bcbd4f31ba399fdfca171a7a240eaffa9f027cdc780b098c50e065f77eac013f",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Abigail Real wygląda naturalniej: poprawione światło i cienie, mniej plastikowe materiały skóry i włosów, subtelniejsze proporcje, spokojniejsza animacja idle i delikatny ruch ciała. Przełączanie postaci pozostaje bez zmian. Ikony nie zmieniano."
+  "releaseNotes": "Postać 01 to teraz osobny model Abigail Photo. Model zachowuje szkielet i animacje, ale ma własny plik GLB oraz twarz przeniesioną na teksturę 3D z tablicy referencyjnej. Maya pozostaje osobnym modelem 02. To pierwszy etap faktycznej podmiany wyglądu na podstawie referencji."
 }
