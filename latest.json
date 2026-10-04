@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 6,
-  "versionName": "0.1.5",
+  "versionCode": 7,
+  "versionName": "0.1.6",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "8f9285aab9e868a846073e278d9cb6af059bfcdaef23d856c89f891a5c1785e3",
+  "sha256": "5a3def6d138c5bf27fc577cd553cede859a77417040f660b29a92c7e01f4435d",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Test aktualizatora DIRECT: aktualizacja pobierana w aplikacji, weryfikowana SHA-256 i przekazywana do systemowego instalatora Androida."
+  "releaseNotes": "Naprawiono wyświetlanie Abigail: osobne poprawnie przygotowane widoki przód, 3/4, bok i tył. Kamera i system aktualizacji bez zmian."
 }
