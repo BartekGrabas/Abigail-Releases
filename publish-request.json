@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "0.2.0",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-c7ec-81f4-8123-958ecfc7f033/raw?se=2026-10-04T07%3A14%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=40b78efe-4a5d-509d-8113-e0beaeba7743&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T05%3A44%3A54Z&ske=2026-10-05T05%3A44%3A54Z&sks=b&skv=2026-02-06&sig=sKB31RpbxPfkI0p1y2kddWxJ4jnCRSJClEzr2DLUyGo%3D",
-  "releaseNotes": "Pierwsza prawdziwa wersja 3D: model VRM ze szkieletem, pełny obrót 360°, poprawiony kierunek sterowania palcem. Zdjęcia Abigail pozostają referencją wyglądu."
+  "versionCode": 9,
+  "versionName": "0.2.1",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b0b8-8210-9c45-211a81ccee7b/raw?se=2026-10-04T07%3A40%3A10Z&sp=r&sv=2026-02-06&sr=b&scid=09d0b991-c83c-551e-bb5b-7bd949c64d10&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A02%3A02Z&ske=2026-10-05T07%3A02%3A02Z&sks=b&skv=2026-02-06&sig=J/RCGDNE4Ght%2BED9AAZIZ1HDaUpZXxLFJXsgobGDOy4%3D",
+  "releaseNotes": "Naprawiono czarny ekran w trybie 3D. Usunięto pozostałość po starym rendererze 2D, która zatrzymywała skrypt przed wyświetleniem modelu VRM."
 }
