@@ -1,6 +1,6 @@
 {
-  "versionCode": 9,
-  "versionName": "0.2.1",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b0b8-8210-9c45-211a81ccee7b/raw?se=2026-10-04T07%3A40%3A10Z&sp=r&sv=2026-02-06&sr=b&scid=09d0b991-c83c-551e-bb5b-7bd949c64d10&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A02%3A02Z&ske=2026-10-05T07%3A02%3A02Z&sks=b&skv=2026-02-06&sig=J/RCGDNE4Ght%2BED9AAZIZ1HDaUpZXxLFJXsgobGDOy4%3D",
-  "releaseNotes": "Naprawiono czarny ekran w trybie 3D. Usunięto pozostałość po starym rendererze 2D, która zatrzymywała skrypt przed wyświetleniem modelu VRM."
+  "versionCode": 10,
+  "versionName": "0.2.2",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-c230-8210-83b7-d303145f35fd/raw?se=2026-10-04T08%3A19%3A32Z&sp=r&sv=2026-02-06&sr=b&scid=4445dbfd-504c-5b40-9e14-1929d1d1ed1c&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T07%3A58%3A49Z&ske=2026-10-05T07%3A58%3A49Z&sks=b&skv=2026-02-06&sig=GX5G1K0TmUs4NjjcdBzr%2BrKLpZJ5G6hpZjNQ2TKDzqI%3D",
+  "releaseNotes": "Nowa baza Abigail 3D: kobiecy model MakeHuman ze szkieletem i animacją idle. Usunięto techniczny robotyczny model VRM. Kolor włosów i ubioru jest zbliżany do referencji Abigail; zdjęcia pozostają wzorcem dalszego dopasowania twarzy i sylwetki."
 }
