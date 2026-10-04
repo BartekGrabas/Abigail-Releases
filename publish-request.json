@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "0.1.4",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d2ac-8210-a8ab-99459e3f04e4/raw?se=2026-10-03T21%3A35%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=1deea9c6-8057-59c3-866e-033fecedb605&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T08%3A29%3A26Z&ske=2026-10-04T08%3A29%3A26Z&sks=b&skv=2026-02-06&sig=lnMpDaKKhHZLjPrsERJnh6Wf2rC6bYxDKoFqPR/z/a4%3D",
-  "releaseNotes": "Natywny system aktualizacji DIRECT wzorowany na AB Mobile Studio: pobieranie w aplikacji, weryfikacja SHA-256, FileProvider i systemowy instalator Androida. Grafika postaci bez zmian."
+  "versionCode": 6,
+  "versionName": "0.1.5",
+  "artifactUrl": "https://sdmntprukwest.oaiusercontent.com/files/00000000-f420-8243-86dd-bade03223dd7/raw?se=2026-10-04T00%3A36%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=9578b22e-a30f-5007-8419-3830b69887d6&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T17%3A58%3A56Z&ske=2026-10-04T17%3A58%3A56Z&sks=b&skv=2026-02-06&sig=fUY7eIW/oqQUZ88vF3ErwXfwx/pIuaDi4olThiPV59Y%3D",
+  "releaseNotes": "Test aktualizatora DIRECT: aktualizacja pobierana w aplikacji, weryfikowana SHA-256 i przekazywana do systemowego instalatora Androida."
 }
