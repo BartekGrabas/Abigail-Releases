@@ -1,6 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "0.2.3",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7e2c-81f4-8857-9526458f832f/raw?se=2026-10-04T09%3A03%3A51Z&sp=r&sv=2026-02-06&sr=b&scid=fa33cfd8-33cf-5b8c-a972-2be4d9051cc8&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A33%3A14Z&ske=2026-10-05T08%3A33%3A14Z&sks=b&skv=2026-02-06&sig=pgFdrJ53Tcr87f8ZXTgtiEnqzBKXJER7xG4xx6JTfOc%3D",
-  "releaseNotes": "Dodano dwie postacie: Abigail Real (postać 01) i Maya (postać 02), przełączanie postaci z poziomu aplikacji oraz nową ikonę aplikacji z portretem referencyjnym. Abigail Real ma pierwsze dopasowanie proporcji, brązowe włosy i granatowy strój; Maya zachowuje poprzednią bazę 3D."
+  "versionCode": 12,
+  "versionName": "0.2.4",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-81c4-8210-af5c-c66c75445804/raw?se=2026-10-04T10%3A19%3A41Z&sp=r&sv=2026-02-06&sr=b&scid=068684fd-3d2c-52ff-a54c-99a5d52053bb&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T06%3A33%3A30Z&ske=2026-10-05T06%3A33%3A30Z&sks=b&skv=2026-02-06&sig=Uuy3it5EoFHrEN8gebBYFzyBEQK6IawZ/NNJeH8pneY%3D",
+  "releaseNotes": "Abigail Real wygląda naturalniej: poprawione światło i cienie, mniej plastikowe materiały skóry i włosów, subtelniejsze proporcje, spokojniejsza animacja idle i delikatny ruch ciała. Przełączanie postaci pozostaje bez zmian. Ikony nie zmieniano."
 }
