@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 11,
-  "versionName": "0.2.3",
+  "versionCode": 12,
+  "versionName": "0.2.4",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "196d0d6d544364bbff10f9b71e37b1ada964e1fc93347f08353d5d4f7e096be3",
+  "sha256": "184b8f979b79fc49a4f7fd36850e40eb8787f00cb8e148499702074055916135",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Dodano dwie postacie: Abigail Real (postać 01) i Maya (postać 02), przełączanie postaci z poziomu aplikacji oraz nową ikonę aplikacji z portretem referencyjnym. Abigail Real ma pierwsze dopasowanie proporcji, brązowe włosy i granatowy strój; Maya zachowuje poprzednią bazę 3D."
+  "releaseNotes": "Abigail Real wygląda naturalniej: poprawione światło i cienie, mniej plastikowe materiały skóry i włosów, subtelniejsze proporcje, spokojniejsza animacja idle i delikatny ruch ciała. Przełączanie postaci pozostaje bez zmian. Ikony nie zmieniano."
 }
