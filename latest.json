@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 15,
-  "versionName": "0.2.7",
+  "versionCode": 16,
+  "versionName": "0.2.8",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "729ac266797c804282ac104c9681fbcdc4c26eaf5d64683a59da8b79964ffaa6",
+  "sha256": "e182bd9c9a019d2f478dcf2015b5b30dff67e040b1c809a42a877837f9e875c2",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Dopracowana Abigail Photo: twarz korzysta bezpośrednio z najlepszej referencji, poprawiono blend UV i ostrość detali, proporcje sylwetki oraz materiały. Naprawiono także ikonę Androida — dodano poprawną adaptive icon, więc launcher nie powinien już pokazywać czarnego kwadratu."
+  "releaseNotes": "Lepszy podgląd postaci: Abigail startuje większa na ekranie, pinch-zoom może podejść znacznie bliżej, dodano szybkie widoki Cała/Twarz. Dodano też sterowanie animacjami: Spokój, Spacer, Bieg i Skok z płynnymi przejściami."
 }
