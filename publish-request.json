@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "0.2.8",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-00c0-8210-ad34-cca9611e94d4/raw?se=2026-10-05T05%3A55%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=def0337b-e59f-5ac6-a2a9-ff24490386b3&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T16%3A58%3A54Z&ske=2026-10-05T16%3A58%3A54Z&sks=b&skv=2026-02-06&sig=CPyvz9TB1hrM1B1lNF4QNGLzclmPmZcDtStu8BsGev4%3D",
-  "releaseNotes": "Lepszy podgląd postaci: Abigail startuje większa na ekranie, pinch-zoom może podejść znacznie bliżej, dodano szybkie widoki Cała/Twarz. Dodano też sterowanie animacjami: Spokój, Spacer, Bieg i Skok z płynnymi przejściami."
+  "versionCode": 17,
+  "versionName": "0.2.9",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7100-8210-902a-44e5b5897311/raw?se=2026-10-05T06%3A47%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=683954f5-588f-5ff8-a658-b35529b47a14&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T17%3A01%3A16Z&ske=2026-10-05T17%3A01%3A16Z&sks=b&skv=2026-02-06&sig=CY1u06FqEeM94%2BWyp6zM2iRiY09piVViamTnR82ZsmU%3D",
+  "releaseNotes": "Poprawione przyciski animacji: akcje są uruchamiane bezpośrednio i mają dopasowanie nazw klipów. Abigail startuje jeszcze bliżej, pinch-zoom może podejść niemal do twarzy, a przycisk Twarz ustawia znacznie bliższy kadr. Tekstura twarzy została zwiększona z 768 do 1536 px i zapisana jako nowy wysokiej jakości obraz wewnątrz GLB, co poprawia ostrość i detale."
 }
