@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 18,
-  "versionName": "0.3.0",
+  "versionCode": 19,
+  "versionName": "0.3.1",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "89841fe5215eaf965ac8847a61d6dcb502c1326966b2d5b42e81637139492c66",
+  "sha256": "d133b1641501218b580e2141beace9ca84cd19bf3b6665cad28fa8f1e5a7e111",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Nowy silnik ruchu Abigail: model 01 ma potwierdzone 66 animacji i aplikacja potrafi w razie potrzeby pobrać klipy ruchu z bazowego rigowanego modelu. Dodano stan 'animacji gotowych', poprawiono uruchamianie Spacer/Bieg/Skok/Spokój. Dodano tryb Przesuń — jednym palcem można przesuwać kadr góra/dół i lewo/prawo, a dwa palce nadal robią zoom+pan. Poprawiono też czarne plamy na twarzy i dłoniach przez łagodniejsze cienie skóry oraz poprawiony shadow bias."
+  "releaseNotes": "Poprawki po teście na Samsung Galaxy S25 Ultra: znacznie bliższy widok Twarz i zoom zależny od skali modelu, pewniejsze przełączanie Obrót/Przesuń oraz poprawione renderowanie Postaci 03. Dla statycznego modelu SPAR3D wyłączono problematyczne samocieniowanie i mapę metallic/roughness, które powodowały ciemne plamy. Aplikacja wykrywa teraz brak szkieletu i pokazuje właściwy komunikat zamiast sugerować błąd AnimationMixer. Abigail 01 i Maya zachowują rigowane animacje."
 }
