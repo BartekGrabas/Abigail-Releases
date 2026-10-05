@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "0.2.7",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5e50-8210-a78b-475728ab2bba/raw?se=2026-10-05T00%3A34%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=d3cd2cc3-37dd-5003-adf1-b3af818bbbea&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T04%3A36%3A19Z&ske=2026-10-05T04%3A36%3A19Z&sks=b&skv=2026-02-06&sig=a4HEr8GFUIGXkuqoGgx6iRKH8nXRjDVz4FsfnJ9ntuI%3D",
-  "releaseNotes": "Dopracowana Abigail Photo: twarz korzysta bezpośrednio z najlepszej referencji, poprawiono blend UV i ostrość detali, proporcje sylwetki oraz materiały. Naprawiono także ikonę Androida — dodano poprawną adaptive icon, więc launcher nie powinien już pokazywać czarnego kwadratu."
+  "versionCode": 16,
+  "versionName": "0.2.8",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-00c0-8210-ad34-cca9611e94d4/raw?se=2026-10-05T05%3A55%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=def0337b-e59f-5ac6-a2a9-ff24490386b3&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T16%3A58%3A54Z&ske=2026-10-05T16%3A58%3A54Z&sks=b&skv=2026-02-06&sig=CPyvz9TB1hrM1B1lNF4QNGLzclmPmZcDtStu8BsGev4%3D",
+  "releaseNotes": "Lepszy podgląd postaci: Abigail startuje większa na ekranie, pinch-zoom może podejść znacznie bliżej, dodano szybkie widoki Cała/Twarz. Dodano też sterowanie animacjami: Spokój, Spacer, Bieg i Skok z płynnymi przejściami."
 }
