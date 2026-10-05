@@ -1,6 +1,6 @@
 {
-  "versionCode": 17,
-  "versionName": "0.2.9",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-7100-8210-902a-44e5b5897311/raw?se=2026-10-05T06%3A47%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=683954f5-588f-5ff8-a658-b35529b47a14&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T17%3A01%3A16Z&ske=2026-10-05T17%3A01%3A16Z&sks=b&skv=2026-02-06&sig=CY1u06FqEeM94%2BWyp6zM2iRiY09piVViamTnR82ZsmU%3D",
-  "releaseNotes": "Poprawione przyciski animacji: akcje są uruchamiane bezpośrednio i mają dopasowanie nazw klipów. Abigail startuje jeszcze bliżej, pinch-zoom może podejść niemal do twarzy, a przycisk Twarz ustawia znacznie bliższy kadr. Tekstura twarzy została zwiększona z 768 do 1536 px i zapisana jako nowy wysokiej jakości obraz wewnątrz GLB, co poprawia ostrość i detale."
+  "versionCode": 18,
+  "versionName": "0.3.0",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-37cc-8210-a127-7526268f2f4c/raw?se=2026-10-05T07%3A18%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=52d0af02-f55d-52e6-8733-c12eb276aa90&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-05T05%3A00%3A16Z&ske=2026-10-06T05%3A00%3A16Z&sks=b&skv=2026-02-06&sig=48F8e2F1I0%2BW2V8VE9qaGBJLYh/nNCFUUK3Qiiki0eg%3D",
+  "releaseNotes": "Nowy silnik ruchu Abigail: model 01 ma potwierdzone 66 animacji i aplikacja potrafi w razie potrzeby pobrać klipy ruchu z bazowego rigowanego modelu. Dodano stan 'animacji gotowych', poprawiono uruchamianie Spacer/Bieg/Skok/Spokój. Dodano tryb Przesuń — jednym palcem można przesuwać kadr góra/dół i lewo/prawo, a dwa palce nadal robią zoom+pan. Poprawiono też czarne plamy na twarzy i dłoniach przez łagodniejsze cienie skóry oraz poprawiony shadow bias."
 }
