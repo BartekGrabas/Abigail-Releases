@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "0.3.0",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-37cc-8210-a127-7526268f2f4c/raw?se=2026-10-05T07%3A18%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=52d0af02-f55d-52e6-8733-c12eb276aa90&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-05T05%3A00%3A16Z&ske=2026-10-06T05%3A00%3A16Z&sks=b&skv=2026-02-06&sig=48F8e2F1I0%2BW2V8VE9qaGBJLYh/nNCFUUK3Qiiki0eg%3D",
-  "releaseNotes": "Nowy silnik ruchu Abigail: model 01 ma potwierdzone 66 animacji i aplikacja potrafi w razie potrzeby pobrać klipy ruchu z bazowego rigowanego modelu. Dodano stan 'animacji gotowych', poprawiono uruchamianie Spacer/Bieg/Skok/Spokój. Dodano tryb Przesuń — jednym palcem można przesuwać kadr góra/dół i lewo/prawo, a dwa palce nadal robią zoom+pan. Poprawiono też czarne plamy na twarzy i dłoniach przez łagodniejsze cienie skóry oraz poprawiony shadow bias."
+  "versionCode": 19,
+  "versionName": "0.3.1",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-97c4-81f4-b58e-6d9f1084ecbf/raw?se=2026-10-05T08%3A11%3A43Z&sp=r&sv=2026-02-06&sr=b&scid=cfcbd79e-fd45-5d9a-9ade-5d2ca005ece1&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-05T05%3A06%3A37Z&ske=2026-10-06T05%3A06%3A37Z&sks=b&skv=2026-02-06&sig=TI1ue%2B30LPIEicCXUoMBF3YOPIJy3YZfz4CmlEbqFSY%3D",
+  "releaseNotes": "Poprawki po teście na Samsung Galaxy S25 Ultra: znacznie bliższy widok Twarz i zoom zależny od skali modelu, pewniejsze przełączanie Obrót/Przesuń oraz poprawione renderowanie Postaci 03. Dla statycznego modelu SPAR3D wyłączono problematyczne samocieniowanie i mapę metallic/roughness, które powodowały ciemne plamy. Aplikacja wykrywa teraz brak szkieletu i pokazuje właściwy komunikat zamiast sugerować błąd AnimationMixer. Abigail 01 i Maya zachowują rigowane animacje."
 }
