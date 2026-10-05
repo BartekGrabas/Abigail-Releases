@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "0.2.5",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3888-8210-9637-de6590dc578b/raw?se=2026-10-04T16%3A50%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=350ae3e6-e3a3-5f06-88d7-c001e0156daa&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T06%3A32%3A45Z&ske=2026-10-05T06%3A32%3A45Z&sks=b&skv=2026-02-06&sig=gqFRLz8zAuQzIfY4Ins0a3opUOz3jS2w9bLVulFFW7U%3D",
-  "releaseNotes": "Postać 01 to teraz osobny model Abigail Photo. Model zachowuje szkielet i animacje, ale ma własny plik GLB oraz twarz przeniesioną na teksturę 3D z tablicy referencyjnej. Maya pozostaje osobnym modelem 02. To pierwszy etap faktycznej podmiany wyglądu na podstawie referencji."
+  "versionCode": 15,
+  "versionName": "0.2.7",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-5e50-8210-a78b-475728ab2bba/raw?se=2026-10-05T00%3A34%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=d3cd2cc3-37dd-5003-adf1-b3af818bbbea&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T04%3A36%3A19Z&ske=2026-10-05T04%3A36%3A19Z&sks=b&skv=2026-02-06&sig=a4HEr8GFUIGXkuqoGgx6iRKH8nXRjDVz4FsfnJ9ntuI%3D",
+  "releaseNotes": "Dopracowana Abigail Photo: twarz korzysta bezpośrednio z najlepszej referencji, poprawiono blend UV i ostrość detali, proporcje sylwetki oraz materiały. Naprawiono także ikonę Androida — dodano poprawną adaptive icon, więc launcher nie powinien już pokazywać czarnego kwadratu."
 }
