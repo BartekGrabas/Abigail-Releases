@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 19,
-  "versionName": "0.3.1",
+  "versionCode": 20,
+  "versionName": "0.3.2",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "d133b1641501218b580e2141beace9ca84cd19bf3b6665cad28fa8f1e5a7e111",
+  "sha256": "3282fc8014abe7af6c833c557cd907b3ace4b002433e069ef368b9d15028eec5",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Poprawki po teście na Samsung Galaxy S25 Ultra: znacznie bliższy widok Twarz i zoom zależny od skali modelu, pewniejsze przełączanie Obrót/Przesuń oraz poprawione renderowanie Postaci 03. Dla statycznego modelu SPAR3D wyłączono problematyczne samocieniowanie i mapę metallic/roughness, które powodowały ciemne plamy. Aplikacja wykrywa teraz brak szkieletu i pokazuje właściwy komunikat zamiast sugerować błąd AnimationMixer. Abigail 01 i Maya zachowują rigowane animacje."
+  "releaseNotes": "Nowy system ruchu proceduralnego Abigail. Dodano bezpośrednie sterowanie kośćmi bez potrzeby tworzenia osobnego klipu dla każdego gestu. Dostępne są: kiwnięcie głową, przeczenie, patrzenie lewo/prawo, podnoszenie i opuszczanie prawej ręki oraz machanie. Gesty mogą działać jako warstwa nad AnimationMixer, więc postać może np. spacerować i jednocześnie poruszać głową lub ręką. Dodano publiczne API window.AbigailMotion.command(...) dla przyszłego BartAI/LLM oraz wykrywanie kompatybilnego szkieletu."
 }
