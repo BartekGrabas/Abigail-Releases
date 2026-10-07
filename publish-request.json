@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "0.3.4",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-9af4-81f4-bcf6-e6c2f7ce0001/raw?se=2026-10-07T01%3A10%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=716fd79a-8d91-56ef-a41a-c50771cc9356&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T00%3A47%3A09Z&ske=2026-10-08T00%3A47%3A09Z&sks=b&skv=2026-02-06&sig=FQoMqjWK0tkXaM1r4/oUFtgACzYToAayShDQ/wo7/e8%3D",
-  "releaseNotes": "Poprawione kładzenie się na podłożu. Dla rigowanych postaci aplikacja wykorzystuje teraz istniejącą animację getup odtwarzaną od końca do początku, dzięki czemu zejście do leżenia używa pełnej pracy szkieletu zamiast sztucznego obracania całego modelu. Wstań używa getup normalnie do przodu. Dodatkowo poprawiono fallback proceduralny: stabilizacja pozy idle, wolniejsze przejście i automatyczne dosunięcie bounding boxa do płaszczyzny. Diagnostyka potwierdziła pełne 66 animacji, w tym getup i getup_prone."
+  "versionCode": 23,
+  "versionName": "0.3.5",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cc44-8210-afe4-6451e5e017cd/raw?se=2026-10-07T07%3A34%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=cb9112c6-2aa8-50bc-9f3b-73475678dcc4&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T06%3A36%3A59Z&ske=2026-10-08T06%3A36%3A59Z&sks=b&skv=2026-02-06&sig=x59Bpktq%2B7VkG4Mhgk4nR61N8VcNO36v4aEHeIus2LA%3D",
+  "releaseNotes": "Etap 0.3.5: dodano IK lewej ręki, wspólny solver dla obu rąk i miękkie ograniczenia barku, łokcia i obojczyka. Dodano wybór celu dłoni dotykiem ekranu osobno dla prawej i lewej ręki oraz wizualny znacznik celu. Rozszerzono API AbigailMotion o reachLeftLocal(...) i reachWorld(...). Dodano też szczegółową instrukcję docs/ABIGAIL_V4_AGENT_REQUIREMENTS.md dla agenta Blender/MCP, obejmującą rig, kości palców, mimikę, materiały, wydajność i walidację Abigail V4."
 }
