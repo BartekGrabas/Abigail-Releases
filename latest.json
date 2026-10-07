@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 20,
-  "versionName": "0.3.2",
+  "versionCode": 21,
+  "versionName": "0.3.3",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "3282fc8014abe7af6c833c557cd907b3ace4b002433e069ef368b9d15028eec5",
+  "sha256": "897575b215375daaaebc0417f1c94ad7d5c050eb3c8da6f94c453899a6582e36",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Nowy system ruchu proceduralnego Abigail. Dodano bezpośrednie sterowanie kośćmi bez potrzeby tworzenia osobnego klipu dla każdego gestu. Dostępne są: kiwnięcie głową, przeczenie, patrzenie lewo/prawo, podnoszenie i opuszczanie prawej ręki oraz machanie. Gesty mogą działać jako warstwa nad AnimationMixer, więc postać może np. spacerować i jednocześnie poruszać głową lub ręką. Dodano publiczne API window.AbigailMotion.command(...) dla przyszłego BartAI/LLM oraz wykrywanie kompatybilnego szkieletu."
+  "releaseNotes": "Dodano IK prawej ręki działające w czasie rzeczywistym oraz nowe ruchy proceduralne. Komenda „Sięgnij ręką (IK)” kieruje prawą dłoń w stronę użytkownika/kamery bez osobnego klipu animacji. Dodano także „Puść cel IK”, „Połóż się” i „Wstań”. Położenie działa jako płynny ruch całej postaci do pozycji leżącej na plecach. Dodano API reachRightLocal(x,y,z) jako podstawę pod przyszłe dotykanie obiektów, wskazywanie i sterowanie BartAI."
 }
