@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 22,
-  "versionName": "0.3.4",
+  "versionCode": 23,
+  "versionName": "0.3.5",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "d7efd99418ac9843dbfc343ec84acabfc7daa67d936c754df3665c2d2d3599f9",
+  "sha256": "65347fe2bb2c083cee41bcdf8808cf66da70f9a3ea9be2fca0eb502b92530658",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Poprawione kładzenie się na podłożu. Dla rigowanych postaci aplikacja wykorzystuje teraz istniejącą animację getup odtwarzaną od końca do początku, dzięki czemu zejście do leżenia używa pełnej pracy szkieletu zamiast sztucznego obracania całego modelu. Wstań używa getup normalnie do przodu. Dodatkowo poprawiono fallback proceduralny: stabilizacja pozy idle, wolniejsze przejście i automatyczne dosunięcie bounding boxa do płaszczyzny. Diagnostyka potwierdziła pełne 66 animacji, w tym getup i getup_prone."
+  "releaseNotes": "Etap 0.3.5: dodano IK lewej ręki, wspólny solver dla obu rąk i miękkie ograniczenia barku, łokcia i obojczyka. Dodano wybór celu dłoni dotykiem ekranu osobno dla prawej i lewej ręki oraz wizualny znacznik celu. Rozszerzono API AbigailMotion o reachLeftLocal(...) i reachWorld(...). Dodano też szczegółową instrukcję docs/ABIGAIL_V4_AGENT_REQUIREMENTS.md dla agenta Blender/MCP, obejmującą rig, kości palców, mimikę, materiały, wydajność i walidację Abigail V4."
 }
