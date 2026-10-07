@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 21,
-  "versionName": "0.3.3",
+  "versionCode": 22,
+  "versionName": "0.3.4",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "897575b215375daaaebc0417f1c94ad7d5c050eb3c8da6f94c453899a6582e36",
+  "sha256": "d7efd99418ac9843dbfc343ec84acabfc7daa67d936c754df3665c2d2d3599f9",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Dodano IK prawej ręki działające w czasie rzeczywistym oraz nowe ruchy proceduralne. Komenda „Sięgnij ręką (IK)” kieruje prawą dłoń w stronę użytkownika/kamery bez osobnego klipu animacji. Dodano także „Puść cel IK”, „Połóż się” i „Wstań”. Położenie działa jako płynny ruch całej postaci do pozycji leżącej na plecach. Dodano API reachRightLocal(x,y,z) jako podstawę pod przyszłe dotykanie obiektów, wskazywanie i sterowanie BartAI."
+  "releaseNotes": "Poprawione kładzenie się na podłożu. Dla rigowanych postaci aplikacja wykorzystuje teraz istniejącą animację getup odtwarzaną od końca do początku, dzięki czemu zejście do leżenia używa pełnej pracy szkieletu zamiast sztucznego obracania całego modelu. Wstań używa getup normalnie do przodu. Dodatkowo poprawiono fallback proceduralny: stabilizacja pozy idle, wolniejsze przejście i automatyczne dosunięcie bounding boxa do płaszczyzny. Diagnostyka potwierdziła pełne 66 animacji, w tym getup i getup_prone."
 }
