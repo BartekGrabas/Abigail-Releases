@@ -1,6 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "0.3.3",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-3a8c-8210-9d43-e8396957622e/raw?se=2026-10-07T00%3A14%3A43Z&sp=r&sv=2026-02-06&sr=b&scid=bd1c797d-2ce7-5947-a10e-b58d33917c98&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-06T04%3A38%3A36Z&ske=2026-10-07T04%3A38%3A36Z&sks=b&skv=2026-02-06&sig=s6Hwn3JTv7us7spoJqNtRdGCc2u6c3y7o2o4o5lJHpA%3D",
-  "releaseNotes": "Dodano IK prawej ręki działające w czasie rzeczywistym oraz nowe ruchy proceduralne. Komenda „Sięgnij ręką (IK)” kieruje prawą dłoń w stronę użytkownika/kamery bez osobnego klipu animacji. Dodano także „Puść cel IK”, „Połóż się” i „Wstań”. Położenie działa jako płynny ruch całej postaci do pozycji leżącej na plecach. Dodano API reachRightLocal(x,y,z) jako podstawę pod przyszłe dotykanie obiektów, wskazywanie i sterowanie BartAI."
+  "versionCode": 22,
+  "versionName": "0.3.4",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-9af4-81f4-bcf6-e6c2f7ce0001/raw?se=2026-10-07T01%3A10%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=716fd79a-8d91-56ef-a41a-c50771cc9356&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T00%3A47%3A09Z&ske=2026-10-08T00%3A47%3A09Z&sks=b&skv=2026-02-06&sig=FQoMqjWK0tkXaM1r4/oUFtgACzYToAayShDQ/wo7/e8%3D",
+  "releaseNotes": "Poprawione kładzenie się na podłożu. Dla rigowanych postaci aplikacja wykorzystuje teraz istniejącą animację getup odtwarzaną od końca do początku, dzięki czemu zejście do leżenia używa pełnej pracy szkieletu zamiast sztucznego obracania całego modelu. Wstań używa getup normalnie do przodu. Dodatkowo poprawiono fallback proceduralny: stabilizacja pozy idle, wolniejsze przejście i automatyczne dosunięcie bounding boxa do płaszczyzny. Diagnostyka potwierdziła pełne 66 animacji, w tym getup i getup_prone."
 }
