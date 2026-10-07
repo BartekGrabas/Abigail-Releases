@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "0.3.5",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-cc44-8210-afe4-6451e5e017cd/raw?se=2026-10-07T07%3A34%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=cb9112c6-2aa8-50bc-9f3b-73475678dcc4&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T06%3A36%3A59Z&ske=2026-10-08T06%3A36%3A59Z&sks=b&skv=2026-02-06&sig=x59Bpktq%2B7VkG4Mhgk4nR61N8VcNO36v4aEHeIus2LA%3D",
-  "releaseNotes": "Etap 0.3.5: dodano IK lewej ręki, wspólny solver dla obu rąk i miękkie ograniczenia barku, łokcia i obojczyka. Dodano wybór celu dłoni dotykiem ekranu osobno dla prawej i lewej ręki oraz wizualny znacznik celu. Rozszerzono API AbigailMotion o reachLeftLocal(...) i reachWorld(...). Dodano też szczegółową instrukcję docs/ABIGAIL_V4_AGENT_REQUIREMENTS.md dla agenta Blender/MCP, obejmującą rig, kości palców, mimikę, materiały, wydajność i walidację Abigail V4."
+  "versionCode": 24,
+  "versionName": "0.3.6",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6530-8210-ac2b-47a27d8218ed/raw?se=2026-10-07T12%3A26%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=9ed10bed-f7ab-5f98-83b9-1c3686c602bf&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T00%3A02%3A21Z&ske=2026-10-08T00%3A02%3A21Z&sks=b&skv=2026-02-06&sig=5H5VHVMipoz6t%2B0yY/PvNQ540%2BOY9iXyoQ4fjvzU/hg%3D",
+  "releaseNotes": "Porządkowanie sterowania i poprawka IK. Wszystkie kontrolki kamery, animacji, gestów i IK zostały przeniesione do jednej zakładki Sterowanie obok zakładek Postać i Aktualizacje. Ekran główny jest czystszy. Kliknięcie Spokój/Spacer/Bieg/Skok zeruje aktywne cele IK, więc ręce nie pozostają w starej pozycji. Reset ruchu natychmiast zwalnia obie ręce. Dodano też prostą ochronę celu dłoni przed wejściem do objętości tułowia."
 }
