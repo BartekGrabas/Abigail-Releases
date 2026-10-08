@@ -1,6 +1,6 @@
 {
-  "versionCode": 28,
-  "versionName": "0.4.0",
-  "artifactUrl": "https://sdmntprukwest.oaiusercontent.com/files/00000000-9878-8243-a5f2-1ecf8b57fafe/raw?se=2026-10-08T01%3A12%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=86db4484-9483-5332-8d11-512d931a3941&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T23%3A47%3A11Z&ske=2026-10-08T23%3A47%3A11Z&sks=b&skv=2026-02-06&sig=VuQMFq2x9U/LqySDHtZgRNZTpqg/pMPojRLFy/YlXW8%3D",
-  "releaseNotes": "Abigail 0.4.0: naprawiono obrót postaci 360° na Androidzie — jednym palcem obracany jest teraz sam model, a dwa palce nadal służą do zoomu i przesuwania. Maya dostała pierwszą garderobę runtime w zakładce Postać: Oryginalny strój, Zdejmij bluzkę z zachowaniem warstwy bazowej oraz granatową sukienkę. Zmiana stroju ma krótkie animowane przejście, a wybrany strój jest zapamiętywany. Dodano API AbigailWardrobe dla przyszłego BartAI. Sukienka jest lekkim proceduralnym prototypem; docelowo stroje będą mogły być osobnymi skinnowanymi modelami GLB."
+  "versionCode": 29,
+  "versionName": "0.4.1",
+  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0954-8210-8a73-18b52f86cb30/raw?se=2026-10-08T10%3A40%3A01Z&sp=r&sv=2026-02-06&sr=b&scid=43602320-6071-508e-860c-2cd3fdd4dc35&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T08%3A33%3A46Z&ske=2026-10-09T08%3A33%3A46Z&sks=b&skv=2026-02-06&sig=CC4paWJVh/Xo87/OueX5PWCAjfprNxTFy4ffc6xz1dA%3D",
+  "releaseNotes": "Abigail 0.4.1: naprawiono obrót postaci 360° — rotacja palcem jest synchronizowana z bazową transformacją kontrolera ruchu i nie jest już cofana w kolejnej klatce. Dodano pointer capture dla stabilniejszego obrotu na Androidzie. Usunięto czarną proceduralną warstwę garderoby zasłaniającą sylwetkę Mayi. Garderoba korzysta teraz z oryginalnych, skinnowanych materiałów modelu. Zdejmij bluzkę ukrywa tylko materiał bluzki; granatowa sukienka korzysta z oryginalnej geometrii bluzki i spódnicy, więc nie odstaje od ciała. Dodano widoczny gest przebierania z uniesieniem obu rąk; strój zmienia się w połowie ruchu bez pełnoekranowej zasłony."
 }
