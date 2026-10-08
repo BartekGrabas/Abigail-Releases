@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 34,
-  "versionName": "0.4.6",
+  "versionCode": 35,
+  "versionName": "0.4.7",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "dd1528409b3736781b272c242a25818c8896632fbaa943e13cb934c1bc5ecb03",
+  "sha256": "07cdee705508d8a13723367ec348cd70fa91f3e79d76d8837ffbe69a244a6055",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Abigail 0.4.6: dodano granatowy strój kąpielowy jako osobny model GLB, który podąża za szkieletem Mayi i Abigail. Strój jest dostępny w garderobie obu postaci. Android versionCode 34."
+  "releaseNotes": "Abigail 0.4.7: pozycję 03 zastąpiono animowanym modelem Abigail V2 (22 kości, 66 animacji). Model ma garderobę Abigail i osobny zapis stroju. Historyczny ThirdCharacter pozostaje w repozytorium, ale nie jest dołączany do APK."
 }
