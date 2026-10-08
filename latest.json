@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 31,
-  "versionName": "0.4.3",
+  "versionCode": 32,
+  "versionName": "0.4.4",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "eed921f41234e745d0575a2192c03600a29b37be7556b2c1f0c4059e7e22fe41",
+  "sha256": "51942a9bc274b0cb66780db94d174615bb2b4ff96468d721a2da3f349cff52bf",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Abigail 0.4.3: przywrócono faktyczne zdejmowanie zewnętrznej bluzki zamiast tylko zmiany jej koloru. Pod bluzką generowana jest dopasowana warstwa bazowa z fragmentów skinnowanej powierzchni ciała, więc porusza się z tym samym szkieletem i nie odstaje. Dodano przycisk Zdejmij spódniczkę oraz dolną warstwę bazową. Zdejmij sukienkę pozostawia obie warstwy bazowe. Garderoba pamięta niezależnie stan góry i dołu. Przy zmianie stroju aplikacja automatycznie pokazuje całą sylwetkę, a widok Cała ma większy margines, żeby nie ucinać stóp."
+  "releaseNotes": "Abigail 0.4.4: usunięto sztuczne warstwy bazowe z 0.4.3. Zdejmij bluzkę ukrywa wyłącznie oryginalny materiał bluzki, Zdejmij spódniczkę ukrywa wyłącznie oryginalny materiał spódniczki, a Zdejmij sukienkę ukrywa oba elementy. Nie są tworzone żadne dodatkowe meshe ani czarne nakładki — widoczne pozostaje dokładnie oryginalne ciało zapisane w AbigailWorking.glb. Zachowano widok całej sylwetki podczas zmian garderoby."
 }
