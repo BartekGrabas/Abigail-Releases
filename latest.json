@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 26,
-  "versionName": "0.3.8",
+  "versionCode": 27,
+  "versionName": "0.3.9",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "88e1917421a7ebdd1f7aff8ca8741ee9d5c07a68f2164faf141d68be3eb0d6a1",
+  "sha256": "063162e5d817b6937138ee46907a743faf883c7994f683310aac4bc8c7b5429a",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Dodano Model Hi3D jako Postać 06. GLB jest statyczny: 1 025 534 wierzchołki, 2 mln trójkątów, bez kości i animacji. Zachowano postacie 01–04; pozycja 05 (V4) pozostaje planowana."
+  "releaseNotes": "Naprawiono problem z ładowaniem Mayi po przełączaniu ciężkich modeli 03/06. Potwierdzono, że AbigailBase.glb znajduje się w APK i jest poprawnym modelem z 22 kośćmi i 66 animacjami. Aplikacja zwalnia teraz tekstury 8K, geometrię, materiały i zasoby GPU po zmianie postaci. Dodano zabezpieczenie przed spóźnionym załadowaniem poprzedniego GLB oraz jedną automatyczną drugą próbę dla Mayi i Abigail 3D. Ukryto też pustą miniaturę dla postaci bez zdjęcia referencyjnego."
 }
