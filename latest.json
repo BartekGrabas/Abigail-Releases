@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 30,
-  "versionName": "0.4.2",
+  "versionCode": 31,
+  "versionName": "0.4.3",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "1a63a2ba7e40f881b2b348710b147094bb83687efc68e24bda8db03f34463957",
+  "sha256": "eed921f41234e745d0575a2192c03600a29b37be7556b2c1f0c4059e7e22fe41",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Abigail 0.4.2: Maya pozostaje oryginalnym modelem, a Abigail jest podczas buildu tworzona jako dokładna kopia Mayi w osobnym AbigailWorking.glb. Garderoba i dalsze eksperymenty działają teraz na Abigail. Przywrócono sprawdzony obrót OrbitControls jednym palcem i automatyczne zamykanie panelu po wybraniu trybu Obrót/Przesuń. Poprawiono dziury w ubraniu przez wyłączenie alphaMap/alphaTest oraz dodano lekki depth-bias, żeby skóra nie przebijała przez top przy zgięciach. Zmniejszono amplitudę animacji przebierania i dodano przycisk Zdejmij sukienkę. Dodano też projekt przyszłego trybu Naucz Abigail ruchu."
+  "releaseNotes": "Abigail 0.4.3: przywrócono faktyczne zdejmowanie zewnętrznej bluzki zamiast tylko zmiany jej koloru. Pod bluzką generowana jest dopasowana warstwa bazowa z fragmentów skinnowanej powierzchni ciała, więc porusza się z tym samym szkieletem i nie odstaje. Dodano przycisk Zdejmij spódniczkę oraz dolną warstwę bazową. Zdejmij sukienkę pozostawia obie warstwy bazowe. Garderoba pamięta niezależnie stan góry i dołu. Przy zmianie stroju aplikacja automatycznie pokazuje całą sylwetkę, a widok Cała ma większy margines, żeby nie ucinać stóp."
 }
