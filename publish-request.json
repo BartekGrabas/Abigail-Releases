@@ -1,6 +1,6 @@
 {
-  "versionCode": 24,
-  "versionName": "0.3.6",
-  "artifactUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6530-8210-ac2b-47a27d8218ed/raw?se=2026-10-07T12%3A26%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=9ed10bed-f7ab-5f98-83b9-1c3686c602bf&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T00%3A02%3A21Z&ske=2026-10-08T00%3A02%3A21Z&sks=b&skv=2026-02-06&sig=5H5VHVMipoz6t%2B0yY/PvNQ540%2BOY9iXyoQ4fjvzU/hg%3D",
-  "releaseNotes": "Porządkowanie sterowania i poprawka IK. Wszystkie kontrolki kamery, animacji, gestów i IK zostały przeniesione do jednej zakładki Sterowanie obok zakładek Postać i Aktualizacje. Ekran główny jest czystszy. Kliknięcie Spokój/Spacer/Bieg/Skok zeruje aktywne cele IK, więc ręce nie pozostają w starej pozycji. Reset ruchu natychmiast zwalnia obie ręce. Dodano też prostą ochronę celu dłoni przed wejściem do objętości tułowia."
+  "versionCode": 27,
+  "versionName": "0.3.9",
+  "artifactUrl": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-fb40-8246-80b0-fb8f44c0c13c/raw?se=2026-10-08T00%3A50%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=624439a0-3d4a-5d2d-93de-a4b3306bd1c4&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T23%3A53%3A37Z&ske=2026-10-08T23%3A53%3A37Z&sks=b&skv=2026-02-06&sig=diwStL0pXhzzth0EGQqLMz87kkJbbdeVf6WXNSt9hbg%3D",
+  "releaseNotes": "Naprawiono problem z ładowaniem Mayi po przełączaniu ciężkich modeli 03/06. Potwierdzono, że AbigailBase.glb znajduje się w APK i jest poprawnym modelem z 22 kośćmi i 66 animacjami. Aplikacja zwalnia teraz tekstury 8K, geometrię, materiały i zasoby GPU po zmianie postaci. Dodano zabezpieczenie przed spóźnionym załadowaniem poprzedniego GLB oraz jedną automatyczną drugą próbę dla Mayi i Abigail 3D. Ukryto też pustą miniaturę dla postaci bez zdjęcia referencyjnego."
 }
