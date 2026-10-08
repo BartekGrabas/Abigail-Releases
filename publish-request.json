@@ -1,6 +1,6 @@
 {
-  "versionCode": 27,
-  "versionName": "0.3.9",
-  "artifactUrl": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-fb40-8246-80b0-fb8f44c0c13c/raw?se=2026-10-08T00%3A50%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=624439a0-3d4a-5d2d-93de-a4b3306bd1c4&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T23%3A53%3A37Z&ske=2026-10-08T23%3A53%3A37Z&sks=b&skv=2026-02-06&sig=diwStL0pXhzzth0EGQqLMz87kkJbbdeVf6WXNSt9hbg%3D",
-  "releaseNotes": "Naprawiono problem z ładowaniem Mayi po przełączaniu ciężkich modeli 03/06. Potwierdzono, że AbigailBase.glb znajduje się w APK i jest poprawnym modelem z 22 kośćmi i 66 animacjami. Aplikacja zwalnia teraz tekstury 8K, geometrię, materiały i zasoby GPU po zmianie postaci. Dodano zabezpieczenie przed spóźnionym załadowaniem poprzedniego GLB oraz jedną automatyczną drugą próbę dla Mayi i Abigail 3D. Ukryto też pustą miniaturę dla postaci bez zdjęcia referencyjnego."
+  "versionCode": 28,
+  "versionName": "0.4.0",
+  "artifactUrl": "https://sdmntprukwest.oaiusercontent.com/files/00000000-9878-8243-a5f2-1ecf8b57fafe/raw?se=2026-10-08T01%3A12%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=86db4484-9483-5332-8d11-512d931a3941&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T23%3A47%3A11Z&ske=2026-10-08T23%3A47%3A11Z&sks=b&skv=2026-02-06&sig=VuQMFq2x9U/LqySDHtZgRNZTpqg/pMPojRLFy/YlXW8%3D",
+  "releaseNotes": "Abigail 0.4.0: naprawiono obrót postaci 360° na Androidzie — jednym palcem obracany jest teraz sam model, a dwa palce nadal służą do zoomu i przesuwania. Maya dostała pierwszą garderobę runtime w zakładce Postać: Oryginalny strój, Zdejmij bluzkę z zachowaniem warstwy bazowej oraz granatową sukienkę. Zmiana stroju ma krótkie animowane przejście, a wybrany strój jest zapamiętywany. Dodano API AbigailWardrobe dla przyszłego BartAI. Sukienka jest lekkim proceduralnym prototypem; docelowo stroje będą mogły być osobnymi skinnowanymi modelami GLB."
 }
