@@ -1,6 +1,6 @@
 {
   "versionCode": 32,
   "versionName": "0.4.4",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-80b8-81f4-ba4a-915ba82fd89b/raw?se=2026-10-08T11%3A56%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=20baf248-53a1-508d-bb5b-63ef2490c9ed&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T08%3A33%3A49Z&ske=2026-10-09T08%3A33%3A49Z&sks=b&skv=2026-02-06&sig=ULk%2BnFOts%2Br3nVHbNUyrpjuZCF8z6USeqNekaBJajCs%3D",
-  "releaseNotes": "Abigail 0.4.4: usunięto sztuczne warstwy bazowe z 0.4.3. Zdejmij bluzkę ukrywa wyłącznie oryginalny materiał bluzki, Zdejmij spódniczkę ukrywa wyłącznie oryginalny materiał spódniczki, a Zdejmij sukienkę ukrywa oba elementy. Nie są tworzone żadne dodatkowe meshe ani czarne nakładki — widoczne pozostaje dokładnie oryginalne ciało zapisane w AbigailWorking.glb. Zachowano widok całej sylwetki podczas zmian garderoby."
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-cb70-81f4-bb84-c85bd624a940/raw?se=2026-10-08T11%3A57%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=f2f4bb71-7186-5c6a-b706-cdb884583cb3&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T07%3A40%3A48Z&ske=2026-10-09T07%3A40%3A48Z&sks=b&skv=2026-02-06&sig=iRuL/E6p4x2/Hstz69lGzJ86gZtQaQS2eaZzE8GnOWY%3D",
+  "releaseNotes": "Abigail 0.4.4: usunięto sztuczne czarne warstwy bazowe. Po użyciu Zdejmij bluzkę aplikacja ukrywa tylko oryginalny materiał bluzki i pokazuje nietknięte ciało z AbigailWorking.glb. Zdejmij spódniczkę analogicznie ukrywa tylko spódniczkę. Zdejmij sukienkę ukrywa oba elementy garderoby. Nie są tworzone żadne dodatkowe meshe, topy ani spodenki. Zachowano widok całej sylwetki podczas zmian garderoby."
 }
