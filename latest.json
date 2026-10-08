@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 32,
-  "versionName": "0.4.4",
+  "versionCode": 33,
+  "versionName": "0.4.5",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "836ffb1429fb58eef123d4ca1987195ea2fd44ec4624bdac3147843ca4458ac8",
+  "sha256": "4cd414f3fb51f7796bd0d4369364a1cef7a698fc09c49efd9512b537ffb87d43",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Abigail 0.4.4: usunięto sztuczne czarne warstwy bazowe. Po użyciu Zdejmij bluzkę aplikacja ukrywa tylko oryginalny materiał bluzki i pokazuje nietknięte ciało z AbigailWorking.glb. Zdejmij spódniczkę analogicznie ukrywa tylko spódniczkę. Zdejmij sukienkę ukrywa oba elementy garderoby. Nie są tworzone żadne dodatkowe meshe, topy ani spodenki. Zachowano widok całej sylwetki podczas zmian garderoby."
+  "releaseNotes": "Abigail 0.4.5: Maya została oznaczona jako SAVE i otrzymała te same funkcje runtime co robocza Abigail: 66 animacji, IK obu rąk, gesty i garderobę. Stan garderoby Mayi i Abigail jest zapisywany niezależnie. Utworzono punkty bezpieczeństwa backup/abigail-safe-0.4.4 oraz backup/maya-save-0.4.5. Workflow nie nadpisuje już AbigailWorking.glb, jeśli Blender/MCP zapisze własny model w repo. Dodano szczegółową instrukcję docs/ABIGAIL_FACE_BLENDER_MCP.md, dokument bezpieczeństwa i szablon walidacji do etapowego dopracowywania twarzy Abigail do referencji."
 }
