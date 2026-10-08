@@ -1,6 +1,6 @@
 {
-  "versionCode": 33,
-  "versionName": "0.4.5",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-6f6c-81f4-94df-a49cf6224f35/raw?se=2026-10-08T12%3A18%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=6ef6bfc4-a012-526d-bb61-6cb0629d342a&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T02%3A38%3A36Z&ske=2026-10-09T02%3A38%3A36Z&sks=b&skv=2026-02-06&sig=jdVaonyGxwgP53qHc2ZdKQz5JD32Mg8E%2B4Fw/a%2B6H34%3D",
-  "releaseNotes": "Abigail 0.4.5: Maya została oznaczona jako SAVE i otrzymała te same funkcje runtime co robocza Abigail: 66 animacji, IK obu rąk, gesty i garderobę. Stan garderoby Mayi i Abigail jest zapisywany niezależnie. Utworzono punkty bezpieczeństwa backup/abigail-safe-0.4.4 oraz backup/maya-save-0.4.5. Workflow nie nadpisuje już AbigailWorking.glb, jeśli Blender/MCP zapisze własny model w repo. Dodano szczegółową instrukcję docs/ABIGAIL_FACE_BLENDER_MCP.md, dokument bezpieczeństwa i szablon walidacji do etapowego dopracowywania twarzy Abigail do referencji."
+  "versionCode": 34,
+  "versionName": "0.4.6",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7b9c-81f4-a928-52625cd3a847/raw?se=2026-10-08T16%3A51%3A44Z&sp=r&sv=2026-02-06&sr=b&scid=9a67adda-5e5c-4084-a331-c1decc1f7fca&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T23%3A42%3A36Z&ske=2026-10-08T23%3A42%3A36Z&sks=b&skv=2026-02-06&sig=lLMu1JdM/b6a1TcqN9pT1kFo8I2FnbvtLWc7Z0Lx/yQ%3D",
+  "releaseNotes": "Abigail 0.4.6: dodano granatowy strój kąpielowy jako osobny model GLB, który podąża za szkieletem Mayi i Abigail. Strój jest dostępny w garderobie obu postaci. Android versionCode 34."
 }
