@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 29,
-  "versionName": "0.4.1",
+  "versionCode": 30,
+  "versionName": "0.4.2",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "557335f98ff9db2f4fac1bd82da2744d1efb7581059bb543d0086ffb69473c9e",
+  "sha256": "1a63a2ba7e40f881b2b348710b147094bb83687efc68e24bda8db03f34463957",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Abigail 0.4.1: naprawiono obrót postaci 360° — rotacja palcem jest synchronizowana z bazową transformacją kontrolera ruchu i nie jest już cofana w kolejnej klatce. Dodano pointer capture dla stabilniejszego obrotu na Androidzie. Usunięto czarną proceduralną warstwę garderoby zasłaniającą sylwetkę Mayi. Garderoba korzysta teraz z oryginalnych, skinnowanych materiałów modelu. Zdejmij bluzkę ukrywa tylko materiał bluzki; granatowa sukienka korzysta z oryginalnej geometrii bluzki i spódnicy, więc nie odstaje od ciała. Dodano widoczny gest przebierania z uniesieniem obu rąk; strój zmienia się w połowie ruchu bez pełnoekranowej zasłony."
+  "releaseNotes": "Abigail 0.4.2: Maya pozostaje oryginalnym modelem, a Abigail jest podczas buildu tworzona jako dokładna kopia Mayi w osobnym AbigailWorking.glb. Garderoba i dalsze eksperymenty działają teraz na Abigail. Przywrócono sprawdzony obrót OrbitControls jednym palcem i automatyczne zamykanie panelu po wybraniu trybu Obrót/Przesuń. Poprawiono dziury w ubraniu przez wyłączenie alphaMap/alphaTest oraz dodano lekki depth-bias, żeby skóra nie przebijała przez top przy zgięciach. Zmniejszono amplitudę animacji przebierania i dodano przycisk Zdejmij sukienkę. Dodano też projekt przyszłego trybu Naucz Abigail ruchu."
 }
