@@ -1,6 +1,6 @@
 {
-  "versionCode": 34,
-  "versionName": "0.4.6",
-  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7b9c-81f4-a928-52625cd3a847/raw?se=2026-10-08T16%3A51%3A44Z&sp=r&sv=2026-02-06&sr=b&scid=9a67adda-5e5c-4084-a331-c1decc1f7fca&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T23%3A42%3A36Z&ske=2026-10-08T23%3A42%3A36Z&sks=b&skv=2026-02-06&sig=lLMu1JdM/b6a1TcqN9pT1kFo8I2FnbvtLWc7Z0Lx/yQ%3D",
-  "releaseNotes": "Abigail 0.4.6: dodano granatowy strój kąpielowy jako osobny model GLB, który podąża za szkieletem Mayi i Abigail. Strój jest dostępny w garderobie obu postaci. Android versionCode 34."
+  "versionCode": 35,
+  "versionName": "0.4.7",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-1338-81f4-b255-8414ba34b403/raw?se=2026-10-08T17%3A13%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=46d3d2a0-96c8-4350-b38b-029376968344&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T06%3A37%3A53Z&ske=2026-10-09T06%3A37%3A53Z&sks=b&skv=2026-02-06&sig=GNzHWXBgCf3M4mjBeF3RNV7gYiN9bGPNgyhVfMHy4uQ%3D",
+  "releaseNotes": "Abigail 0.4.7: pozycję 03 zastąpiono animowanym modelem Abigail V2 (22 kości, 66 animacji). Model ma garderobę Abigail i osobny zapis stroju. Historyczny ThirdCharacter pozostaje w repozytorium, ale nie jest dołączany do APK."
 }
