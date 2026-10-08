@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 25,
-  "versionName": "0.3.7",
+  "versionCode": 26,
+  "versionName": "0.3.8",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "c06a1f01f7005fb46ce1f380ec412a8223598403c9816ef8ad9c2f12a3781647",
+  "sha256": "88e1917421a7ebdd1f7aff8ca8741ee9d5c07a68f2164faf141d68be3eb0d6a1",
   "mandatory": false,
   "minSdk": 26,
-  "releaseNotes": "Numeracja postaci: 01 Maya, 02 Abigail 3D, 03 ThirdCharacter, 04 Abigail Photo 0.1.6. Przywrócono cztery klasyczne widoki Photo; zachowano dotychczasowe modele 3D i sterowanie rigowanymi postaciami."
+  "releaseNotes": "Dodano Model Hi3D jako Postać 06. GLB jest statyczny: 1 025 534 wierzchołki, 2 mln trójkątów, bez kości i animacji. Zachowano postacie 01–04; pozycja 05 (V4) pozostaje planowana."
 }
