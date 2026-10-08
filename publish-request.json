@@ -1,6 +1,6 @@
 {
-  "versionCode": 30,
-  "versionName": "0.4.2",
-  "artifactUrl": "https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-a53c-81f7-a875-a29530ecce17/raw?se=2026-10-08T11%3A10%3A24Z&sp=r&sv=2026-02-06&sr=b&scid=c6d53868-1317-5797-a4aa-0041df51ef27&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T06%3A14%3A55Z&ske=2026-10-09T06%3A14%3A55Z&sks=b&skv=2026-02-06&sig=p4E3c%2BHsuElpyo6TeqNyw%2B/M7Mi6eNEfzwi2628fkEw%3D",
-  "releaseNotes": "Abigail 0.4.2: Maya pozostaje oryginalnym modelem, a Abigail jest podczas buildu tworzona jako dokładna kopia Mayi w osobnym AbigailWorking.glb. Garderoba i dalsze eksperymenty działają teraz na Abigail. Przywrócono sprawdzony obrót OrbitControls jednym palcem i automatyczne zamykanie panelu po wybraniu trybu Obrót/Przesuń. Poprawiono dziury w ubraniu przez wyłączenie alphaMap/alphaTest oraz dodano lekki depth-bias, żeby skóra nie przebijała przez top przy zgięciach. Zmniejszono amplitudę animacji przebierania i dodano przycisk Zdejmij sukienkę. Dodano też projekt przyszłego trybu Naucz Abigail ruchu."
+  "versionCode": 31,
+  "versionName": "0.4.3",
+  "artifactUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4d54-81f4-a136-ae6a555cac18/raw?se=2026-10-08T11%3A39%3A04Z&sp=r&sv=2026-02-06&sr=b&scid=fd155e45-3488-589c-bf7b-b06ff980dff2&skoid=8981e47a-681f-4a6a-b86c-73d6347614b7&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-08T09%3A16%3A55Z&ske=2026-10-09T09%3A16%3A55Z&sks=b&skv=2026-02-06&sig=rWt6sfbLA0Rrgt6GQ09unXrcLWVyrAYHFN/OBW9KbfU%3D",
+  "releaseNotes": "Abigail 0.4.3: przywrócono faktyczne zdejmowanie zewnętrznej bluzki zamiast tylko zmiany jej koloru. Pod bluzką generowana jest dopasowana warstwa bazowa z fragmentów skinnowanej powierzchni ciała, więc porusza się z tym samym szkieletem i nie odstaje. Dodano przycisk Zdejmij spódniczkę oraz dolną warstwę bazową. Zdejmij sukienkę pozostawia obie warstwy bazowe. Garderoba pamięta niezależnie stan góry i dołu. Przy zmianie stroju aplikacja automatycznie pokazuje całą sylwetkę, a widok Cała ma większy margines, żeby nie ucinać stóp."
 }
