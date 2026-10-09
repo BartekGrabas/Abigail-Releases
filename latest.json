@@ -1,10 +1,10 @@
 {
   "channel": "preview",
-  "versionCode": 36,
-  "versionName": "0.4.8",
+  "versionCode": 37,
+  "versionName": "0.4.9",
   "apkUrl": "https://github.com/BartekGrabas/Abigail-Releases/releases/latest/download/Abigail.apk",
-  "sha256": "28a0c3c7b44f55b6cad01a471a17875fea01d9349a9313a0c3fbfafc7143f170",
+  "sha256": "3737d0d172004ecb109393bc21659dac8236cc6e1e2e0bb71c846aa59799bf8f",
   "mandatory": false,
   "minSdk": 24,
-  "releaseNotes": "Abigail 0.4.8: nowa postać 08 Abigail V8, szkielet i osobna góra/dół stroju. Ciało pod strojem, deformacje, twarz i fryzura pozostają do dopracowania."
+  "releaseNotes": "Abigail 0.4.9: postać 09 Abigail V9, ciało poprawione, 22 kości i 66 animacji. Osobna góra i dół stroju w garderobie. Twarz do dalszej pracy; teksturowanie ze zdjęć jest kolejnym etapem."
 }
